@@ -17,7 +17,7 @@ window.addEventListener('load', function(event) {
   image.addEventListener('mouseover', function(event) {
     image.src = 'assets/imgs/fondo2.jpg';
   });
-  image.addEventListener('mouseover', function(event) {
+  image.addEventListener('mouseout', function(event) {
     image.src = 'assets/imgs/fondo.jpg';
   });
 });
